@@ -2,8 +2,8 @@
 
 ## 📌 Final Model
 
-Due to file size limitations, the final ensemble model checkpoint is hosted externally.
-You can access the trained ensemble model checkpoint here:
+Due to file size limitations, the final trained model checkpoint is hosted externally.
+You can access the the trained model checkpoint here:
 
 👉 [Download Final Model from Google Drive](https://drive.google.com/drive/folders/1ax7h-WN3rRSOEnnb6KdryyeeZ-t5qqGb?usp=sharing)
 
@@ -101,7 +101,7 @@ dataset
 ```
 4. The trained model is stored externally due to file size limitations.
 
-👉 Download the model from the provided Google Drive link and place it in:
+Download the model from the provided Google Drive link above and place it in:
 
 ```
 BestModel/
