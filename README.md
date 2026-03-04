@@ -1,5 +1,12 @@
 # 📘 Patronizing and Condescending Language Detection (PCL)
 
+## 📌 Final Model
+
+Due to file size limitations, the final ensemble model checkpoint is hosted externally.
+You can access the trained ensemble model checkpoint here:
+
+👉 [Download Final Model from Google Drive](https://drive.google.com/drive/folders/1ax7h-WN3rRSOEnnb6KdryyeeZ-t5qqGb?usp=sharing)
+
 ## 🎯 Project Description
 
 This project focuses on detecting Patronizing and Condescending Language (PCL) using a fine-tuned RoBERTa-base transformer model.
