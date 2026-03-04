@@ -97,7 +97,7 @@ final-model.ipynb
 3. Dataset files are already included inside the repository under:
 
 ```
-dataset
+dataset/
 ```
 4. The trained model is stored externally due to file size limitations.
 
