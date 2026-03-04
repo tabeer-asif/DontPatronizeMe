@@ -72,14 +72,14 @@ Metrics used:
 
 ```
 📦DontPatronizeMe
- ┣ 📂BestModel/                    # Final model code
+ ┣ 📂BestModel/                   # Final model code (includes evaluation) - model stored in google drive link provided due to file size limitations
  ┣ 📂Predictions/                 # Prediction outputs (dev/test)
  ┣ 📂dataset/                     # Dataset preprocessing & splits
  ┣ 📂models/                      # Model definitions from hyperparameter tuning
- ┣ 📂train_data/                  # Training data
+ ┣ 📂train_data/                  # Training and dev data
  ┣ 📂test_data/                   # Test data
  ┣ 📂other-notebooks/             # Experiment notebooks - includes EDA
- ┣ 📜README.md                   # This file
+ ┣ 📜README.md                    # This file
  ┗ 📜.gitignore
 ```
 
