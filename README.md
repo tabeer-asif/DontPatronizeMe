@@ -82,62 +82,69 @@ Metrics used:
 ## 💻 Setup and Running Instructions
 
 ### ⭐ Google Colab (Recommended)
-
-Open the notebook:
-
+1. Upload the repository to Google Drive or connect GitHub to Colab.
+2. Open the notebook:
 ```
 final-model.ipynb
 ```
+3. Dataset files are already included inside the repository under:
 
-Then run cells sequentially.
+```
+dataset
+```
+4. The trained model is stored externally due to file size limitations.
 
-The notebook installs required packages automatically.
+👉 Download the model from the provided Google Drive link and place it in:
+
+```
+BestModel/
+```
+(or update the model loading path inside the notebook)
+
+Run notebook cells sequentially.
+
+The notebook automatically installs required dependencies.
 
 ---
 
 ### ⭐ Local Environment (Alternative to Colab)
 
-If not running on Google Colab, install dependencies manually:
+1. Clone Repository
+```
+git clone https://github.com/tabeer-asif/DontPatronizeMe.git
+cd DontPatronizeMe
+```
+2. Install dependencies
 
 ```bash
 pip install torch torchvision transformers
 pip install nlpaug sacremoses nltk
 pip install scikit-learn matplotlib seaborn imbalanced-learn
 ```
+3. Download Model
 
-Then download dataset files and run:
+Download the pretrained model from the Google Drive link provided in the project documentation.
 
-jupyter notebook final.ipynb
-📦 Key Libraries Used
+Place the model files inside:
+```
+BestModel/
+```
+Update model loading paths in ```final-model.ipynb``` if necessary.
 
-PyTorch
+4. Launch Notebook
+```
+jupyter notebook final-model.ipynb
+```
 
-HuggingFace Transformers
+Run cells sequentially.
 
-Scikit-learn
 
-Matplotlib / Seaborn
-
-NLTK
-
-Imbalanced-learn
-
-📈 Model Evaluation Visualisations
-
-The project includes:
-
-Confusion matrix heatmap
-
-Precision–Recall curve analysis
-
-Classification report metrics
-
-🔬 Research Notes
+## 🔬 Research Notes
 
 The model was trained specifically for detecting subtle forms of patronizing language.
 
 Class imbalance was handled using oversampling techniques.
 
-👤 Author
+## 👤 Author
 
 Tabeer Asif
