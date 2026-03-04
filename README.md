@@ -121,14 +121,19 @@ The notebook automatically installs required dependencies.
 git clone https://github.com/tabeer-asif/DontPatronizeMe.git
 cd DontPatronizeMe
 ```
-2. Install dependencies
+2. Create virtual environment (Recommended)
+```
+python -m venv venv
+source venv/bin/activate   # On Mac/Linux
+venv\Scripts\activate      # On Windows
+```
+
+3. Install dependencies
 
 ```bash
-pip install torch torchvision transformers
-pip install nlpaug sacremoses nltk
-pip install scikit-learn matplotlib seaborn imbalanced-learn
+pip install -r requirements.txt
 ```
-3. Download Model
+4. Download Model
 
 Download the pretrained model from the Google Drive link provided in the project documentation.
 
