@@ -138,13 +138,20 @@ jupyter notebook final-model.ipynb
 
 Run cells sequentially.
 
+## References
 
-## 🔬 Research Notes
+1. Pérez-Almendros, Carla, Luis Espinosa Anke, and Steven Schockaert. "Don't Patronize Me! An Annotated Dataset with Patronizing and Condescending Language towards Vulnerable Communities." *Proceedings of the 28th International Conference on Computational Linguistics (COLING 2020)*.
 
-The model was trained specifically for detecting subtle forms of patronizing language.
+2. Pérez-Almendros, Carla, Luis Espinosa Anke, and Steven Schockaert. "SemEval-2022 task 4: Patronizing and condescending language detection." *Proceedings of the 16th International Workshop on Semantic Evaluation (SemEval-2022)*.
 
-Class imbalance was handled using oversampling techniques.
+3. Liu, Yinhan, et al. "RoBERTa: A Robustly Optimized BERT Pretraining Approach." *arXiv preprint arXiv:1907.11692* (2019).
+
+4. Dataset: https://github.com/Perez-AlmendrosC/dontpatronizeme
 
 ## 👤 Author
 
 Tabeer Asif
+
+# License
+
+This project is for educational and research purposes.
